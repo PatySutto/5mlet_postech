@@ -1,18 +1,22 @@
 # API para o curso da Pós Tech da FIAP
 
-API desenvolvida em Flask com o objetivo de fazer um we scraping do site http://vitibrasil.cnpuv.embrapa.br/
-- **Web Scraping**: Extrai dados de páginas web (título, cabeçalhos, parágrafos) usando BeautifulSoup.
+Este projeto é uma API desenvolvida em Flask, com o objetivo de realizar web scraping do site [Embrapa VitiBrasil](http://vitibrasil.cnpuv.embrapa.br/).
+
+- **Web Scraping**: Extrai dados de páginas web usando BeautifulSoup.
+
+- **Documentação**: Acesse a documentação interativa via Swagger para visualizar os endpoints em https://fivemlet-postech.onrender.com (Não é necessário fazer login, apenas clique em "entrar").
+
 
 ## 📁 Estrutura do Projeto
 
 ```bash
-intro_api/
+5mlet_postech/
 ├── app/
 │   ├── __init__.py
 │   ├── routes/
 │   │   ├── __init__.py
 │   │   ├── auth_routes.py
-│   │   └── scrape_routes.py
+│   │   └── scrape_routess.py
 │   ├── services/
 │   │   ├── __init__.py
 │   │   └── GetEmbrapaData.py
@@ -33,6 +37,35 @@ intro_api/
 - **`requirements.txt`**: Lista de dependências do projeto.
 - **`README.md`**: Documentação do projeto.
 
+## 🛠️ Como Executar o Projeto Localmente
+
+### 1. Clone o Repositório
+
+```bash
+git clone https://github.com/PatySutto/5mlet_postech.git
+cd 5mlet_postech
+```
+
+### 2. Crie um Ambiente Virtual
+
+```bash
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
+
+### 3. Instale as Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute o Aplicativo
+
+```bash
+python run.py
+```
+
+O aplicativo estará disponível em `http://localhost:5000`.
 
 ### Deploy<br>
 A aplicação disponível em: https://fivemlet.onrender.com <br>
