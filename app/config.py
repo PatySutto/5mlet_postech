@@ -1,5 +1,5 @@
 class Config:
     SWAGGER = {
-        'title': 'API scraping site Embrapa',
+        'title': 'API web scraping site Embrapa',
         'uiversion': 3
     }
