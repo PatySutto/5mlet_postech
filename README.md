@@ -67,6 +67,3 @@ python run.py
 
 O aplicativo estará disponível em `http://localhost:5000`.
 
-### Deploy<br>
-A aplicação disponível em: https://fivemlet.onrender.com <br>
-Não é necessário fazer login, apenas clique em "entrar".
