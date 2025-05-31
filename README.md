@@ -21,9 +21,6 @@ Este projeto é uma API desenvolvida em Flask, com o objetivo de realizar web sc
 │   │   ├── __init__.py
 │   │   └── GetEmbrapaData.py
 │   └── config.py
-├── anexos/
-│   ├── Fluxograma Fase 1.pdf
-│   └── apresentação.mp4
 ├── requirements.txt
 ├── README.md
 ├── Procfile
@@ -37,9 +34,6 @@ Este projeto é uma API desenvolvida em Flask, com o objetivo de realizar web sc
   - **`routes/`**: Contém as rotas organizadas por funcionalidades.
   - **`services/`**: Serviços para lógica de negócios, como scraping.
   - **`config.py`**: Configurações da aplicação Flask.
-- **`anexos/`**: Diretório para arquivos extras sobre a API.
-  - **`Fluxograma Fase 1.drawio.pdf`**: Fluxograma geral da arquitetura do produto.
-  - **`apresentação.mkv`**: Vídeo de apresentação da API.
 - **`Procfile`**: Arquivo de configuração para rodar a aplicação no Render
 - **`run.py`**: Ponto de entrada para iniciar o aplicativo.
 - **`requirements.txt`**: Lista de dependências do projeto.
