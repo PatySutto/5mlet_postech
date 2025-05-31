@@ -27,7 +27,6 @@ Este projeto é uma API desenvolvida em Flask, com o objetivo de realizar web sc
 ├── requirements.txt
 ├── README.md
 ├── Procfile
-
 └── run.py
 
     
